@@ -1,0 +1,5 @@
+numpy~=1.19.5
+tensorflow~=2.5.2
+keras_preprocessing
+Pillow~=8.3.2
+scipy
