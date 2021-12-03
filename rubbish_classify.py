@@ -56,7 +56,7 @@ model = tf.keras.models.Sequential([
 
 model.summary()
 model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
-model.fit(train_generator, epochs=190, validation_data=validation_generator, verbose=1)
+model.fit(train_generator, epochs=100, validation_data=validation_generator, verbose=1)
 
 
 def predict(img_path):
